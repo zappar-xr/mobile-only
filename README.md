@@ -24,7 +24,7 @@ This library allows you to redirect desktop users to mobile by displaying a QR c
             * [Default](#default)
             * [Customization](#customization)
 
-<!-- Added by: zapparadmin, at: Tue Mar 23 15:19:23 GMT 2021 -->
+<!-- Added by: zapparadmin, at: Tue Mar 23 15:26:51 GMT 2021 -->
 
 <!--te-->
 </details>
@@ -37,7 +37,7 @@ You can use this library by downloading a standalone zip containing the necessar
 ### Standalone Download
 
 Download the bundle from this link:
-https://libs.zappar.com/zappar-mobile-only/0.0.1/zappar-mobileonly.zip
+https://libs.zappar.com/zappar-mobile-only/0.0.2/zappar-mobileonly.zip
 
 Unzip into your web project and reference from your HTML like this:
 ```html
@@ -48,7 +48,7 @@ Unzip into your web project and reference from your HTML like this:
 
 Reference the zappar-mobileonly.js library from your HTML like this:
 ```html
-<script src="https://libs.zappar.com/zappar-mobile-only/0.0.1/zappar-mobileonly.js"></script>
+<script src="https://libs.zappar.com/zappar-mobile-only/0.0.2/zappar-mobileonly.js"></script>
 ```
 
 ### NPM Webpack Package
