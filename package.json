@@ -1,0 +1,57 @@
+{
+  "name": "@zappar/mobile-only",
+  "version": "0.0.0",
+  "description": "Redirect desktop users to mobile using QR Codes",
+  "main": "index.js",
+  "scripts": {
+    "build:tests": "webpack --config=webpack/webpack.config.tests.js --mode=development",
+    "serve": "npm run build:tests && webpack serve --mode=development --config=webpack/webpack.config.tests.js",
+    "test": "jest",
+    "build:standalone": "webpack --config=webpack/webpack.config.standalone.js --mode=production",
+    "build:module": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zappar-xr/mobile-only.git"
+  },
+  "keywords": [
+    "qrcode",
+    "mobile",
+    "redirect"
+  ],
+  "author": "Zappar Limited",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zappar-xr/mobile-only/issues"
+  },
+  "homepage": "https://github.com/zappar-xr/mobile-only#readme",
+  "devDependencies": {
+    "@types/expect-puppeteer": "^2.2.1",
+    "@types/jest": "^22.2.3",
+    "@types/jest-environment-puppeteer": "^2.2.0",
+    "@types/node": "^14.14.35",
+    "@types/qrcode-svg": "^1.1.0",
+    "@types/puppeteer": "^1.2.3",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^22.4.3",
+    "jest-puppeteer": "^2.4.0",
+    "jsdom": "^16.5.1",
+    "puppeteer": "^1.3.0",
+    "ts-jest": "^22.4.4",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "is-mobile": "^3.0.0",
+    "qrcode-svg": "^1.1.0"
+  }
+}
