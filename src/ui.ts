@@ -55,7 +55,7 @@ const show = (opts? : Options) : void => {
   document.body.append(div);
   const svgContainer = document.getElementsByClassName('zappar-svg-container')[0];
 
-  svgContainer.innerHTML = getSVG(url as any);
+  svgContainer.innerHTML = getSVG(url);
 };
 
 export default show;
