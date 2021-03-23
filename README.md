@@ -67,7 +67,7 @@ import * as MobileOnly from "@zappar/mobile-only";
 
 ### Detecting Browsers
 
-The `mo.isMobile()` function returns true if a mobile browser is being used.
+The `MobileOnly.isMobile()` function returns true if a mobile browser is being used.
 
 ```ts
 import * as MobileOnly from "@zappar/mobile-only";
